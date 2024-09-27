@@ -98,7 +98,6 @@ def game():
         
         screen.blit(background_img, (0,0))
         screen.blit(spaceship_img, (spaceship_x, spaceship_y))
-        
 
         for bullet in bullets[:]:
             bullet.move()
